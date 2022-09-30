@@ -1,0 +1,19 @@
+.input {
+  display: grid;
+  grid-template-columns: 110px 200px;
+  justify-content: center;
+  gap: 15px;
+}
+.maindiv {
+  display: flex;
+  flex-direction: column;
+}
+.maindiv > div {
+  margin: 10px;
+}
+.container {
+  max-width: fit-content;
+  margin: auto;
+  padding: 12px;
+  box-sizing: border-box;
+}
